@@ -5,7 +5,7 @@ Door een wat lastig ontwerp mocht ik alles absolute positioneren omdat het ander
 een heel lastig gedoe werd. Ik heb hier toestemming voor gekregen! */
 
 body {
-    background-image: url(/assets/Achtergrond\Visitekaartje.png);
+    background-image: url('/assets/Achtergrond\ Visitekaartje.png');
     max-width: 100%;
     max-height: 100%;
     overflow-y: hidden;
