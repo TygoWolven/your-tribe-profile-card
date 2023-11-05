@@ -6,6 +6,7 @@ een heel lastig gedoe werd. Ik heb hier toestemming voor gekregen! */
 
 body {
     background-image: url(../assets/Achtergrond.png);
+    background-size: 100%;
     max-width: 100%;
     max-height: 100%;
     overflow-y: hidden;
@@ -17,8 +18,8 @@ body {
 h1  {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
-    font-size: 125px;
-    top: 150px;
+    font-size: 100px;
+    top: 100px;
     left: 500px;    
     color: rgb(0, 79, 0);
     overflow: hidden;
@@ -41,8 +42,8 @@ h1  {
 h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
-    font-size: 40px;
-    top: 175px;
+    font-size: 30px;
+    top: 125px;
     left: 500px;
     color: rgb(0, 79, 0);
 }
@@ -52,8 +53,8 @@ h2 {
 #Punt {
     scale: 0.05;
     position: absolute;
-    top: -188px;
-    left: 890px;
+    top: -282px;
+    left: 710px;
     opacity: 0;
     animation: fade 2s infinite;
     animation-delay: 2.2s;
@@ -68,9 +69,9 @@ h2 {
 
 body > img {
     position: absolute;  
-    top: 0px;
-    left: -100px;
-    scale: 0.80;
+    top: -100px;
+    left: -150px;
+    scale: 0.7;
     transition: .3s;
 }
 
@@ -92,21 +93,21 @@ ul {
 #Leeftijd {
     position: absolute;
     font-size: 33px;
-    top: 617px;
-    left: 730px;
+    top: 590px;
+    left: 700px;
 }
 
 #Werk {
     position: absolute;
     font-size: 33px;
-    top: 745px;
-    left: 860px;
+    top: 560px;
+    left: 975px;
 }
 
 #Woonplaats {
     position: absolute;
     font-size: 33px;
-    top: 705px;
+    top: 650px;
     left: 1230px;
 }
 
@@ -117,7 +118,7 @@ ul {
     position:absolute;
     scale: 0.075;
     top: -300px;
-    left: 1399px;
+    left: 999px;
 }
 
 #Github {
@@ -125,7 +126,7 @@ ul {
     position:absolute;
     scale: 0.045;
     top: -738px;
-    left: 875px;
+    left: 475px;
 }
 
 #Snapchat {
@@ -133,7 +134,7 @@ ul {
     position:absolute;
     scale: 0.05;
     top: -517px;
-    left: 823px;
+    left: 423px;
 }
 
 /* Hierbij kun je ook over de Icons hoveren, waardoor ze groter zullen worden. */
@@ -162,8 +163,8 @@ ul {
     background-color: rgb(0, 79, 0);
     padding: 0.5em;
     position: absolute;
-    top: 450px;
-    left: calc(100vw - 7em);
+    top: 350px;
+    left: calc(100vw - 6em);
 }
 
 #Arrowbutton img {
