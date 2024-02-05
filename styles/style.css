@@ -73,6 +73,7 @@ body > img {
     left: -150px;
     scale: 0.7;
     transition: .3s;
+    filter: blur(20px);
 }
 
 body > img.spin {
