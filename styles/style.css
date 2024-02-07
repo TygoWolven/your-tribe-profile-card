@@ -73,12 +73,6 @@ body > img {
     left: -150px;
     scale: 0.7;
     transition: .3s;
-    filter: blur(20px);
-}
-
-body > img.spin {
-    transform: rotate(5deg);
-    top: 40px;
 }
 
 /* Deze Unordered List gebruik ik voor info die aan de lijn komt, met wat globale styling. */
